@@ -6,7 +6,7 @@
 
 **Diego Sierra**
 
-* [LinkedIn](www.linkedin.com/in/dondiegopro)
+* [LinkedIn](https://www.linkedin.com/in/dondiegopro)
 
 ## Ver ejemplo en vivo
 
