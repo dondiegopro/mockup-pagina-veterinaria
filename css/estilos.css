@@ -1,0 +1,636 @@
+/*-------------------------------------universal-------------------------------------------*/
+
+*{
+	margin: 0px;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+
+
+/*-------------------------------------grupo cero-------------------------------------------*/
+
+
+#grupo_cero{
+	width: 100%;
+	height: 120px;
+	background: #daac00;
+	position: fixed;
+
+} 
+
+#nav{
+	width: 1150px;
+	height: 120px;
+	margin: 0px auto;
+
+
+}
+
+#nav img{
+	width: 200px;
+	height: auto;
+	float: left;
+	position: relative;
+	top: 20px;
+	left: 0px;
+}
+
+#nav a{
+	font-size: 23px;
+	padding-right: 50px;
+	color: #FFFFFF;
+	text-decoration-line: none;
+	position: relative;
+	top: 40px;
+	left: 100px;
+
+}
+#nav a:hover{
+	text-decoration-line: underline;
+
+}
+
+#nav table{
+	width: auto;
+	height: 40px;
+	float: right;
+	position: relative;
+	top: 25px;
+	border-collapse: collapse;
+}
+
+#buscador{
+	height: 40px;
+	border-radius: 5px;
+	background: #fcc302;
+	border: 2px solid #fcc302;
+
+}
+
+#buscador:hover{
+	color: #ffffff;
+
+}
+
+
+
+#boton{
+	width:60px;
+	height: 45px;
+	background: #00bec9;
+	border-radius: 5px;
+	border: 2px solid #00bec9;
+	background-image: url(../img/boton.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+#boton:hover{
+	background-image: url(../img/boton2.png);
+}
+
+
+
+/*-------------------------------------grupo uno-------------------------------------------*/
+
+#grupo_uno{
+	width: 100%;
+	height: 950px;
+	background: #fcc302;
+}
+
+
+
+#banner{
+	width: 1150px;
+	height: 950px;
+	margin: 0px auto;
+	
+}
+
+#banner img{
+	width: 500px;
+	height: auto;
+	float: right;
+	padding-top: 150px;
+}
+
+#banner table{
+	width: 500px;
+	height: auto;
+	padding-top: 300px;
+}
+
+#banner h1{
+	font-size: 55px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+#banner p{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-bottom: 20px;
+}
+
+#banner input{
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;	
+	border-radius: 5px;
+}
+
+#service{
+	border: 2px solid #FFFFFF;
+	color: #FFFFFF;
+	background: none;
+
+}
+
+
+
+#contact{
+	background: #00bec9;
+	color: #FFFFFF;
+	border:2px solid #00bec9;
+
+}
+
+#contact:hover,
+#service:hover{
+	color: #00bec9;
+	border: 2px solid #ffffff;
+	background: #ffffff;
+}
+
+
+/*-------------------------------------grupo dos-------------------------------------------*/
+
+#grupo_dos{
+	width: 100%;
+	height:750px;
+	background: #FFFFFF;
+}
+
+#cont_dos{
+	width: 1150px;
+	height: 750;
+	margin: 0px auto;
+}
+
+#cont_dos img{
+	width: 500px;
+	height: auto;
+	float: right;
+	padding-top: 150px;
+}
+
+#cont_dos table{
+	width: 500px;
+	height: auto;
+	padding-top: 250px;
+	float: left;
+}
+
+#cont_dos h1{
+	font-size: 40px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+#cont_dos p{
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+#cont_dos input{
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;	
+	border-radius: 5px;
+	background: #fcc302;
+	color: #FFFFFF;
+	border: none;
+	border: 2px solid #FFFFFF;
+}
+
+#cont_dos input:hover{
+	color: #00bec9;
+	border: 2px solid #00bec9;
+	background: #ffffff;
+
+}
+
+
+
+/*-------------------------------------grupo tres-------------------------------------------*/
+#grupo_tres{
+	width: 100%;
+	height: 850px;
+	background: #fcc302;
+}
+
+#cont_tres{
+	width: 1150px;
+	height: 850px;
+	margin: 0px auto;
+}
+
+#cont_tres h1{
+	font-size: 55px;
+	color: #FFFFFF;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+#cont_tres h2{
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#cont_tres p{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+#cont_tres td{
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+/*-------------------------------------grupo cuatro-------------------------------------------*/
+
+#grupo_cuatro{
+	width: 100%;
+	height: 750;
+	background: #FFFFFF;
+}
+
+#cont_cuatro{
+	width: 1150px;
+	height: 750px;
+	margin:0px auto;
+}
+
+#cont_cuatro img{
+	width: 500px;
+	height: auto;
+	float: left;
+	padding-top: 150px;
+}
+
+#cont_cuatro table{
+	width: 500px;
+	height: auto;
+	padding-top: 250px;
+	float: right;
+}
+
+#cont_cuatro h1{
+	font-size: 40px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+#cont_cuatro p{
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 20px;
+}
+
+#cont_cuatro input{
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;	
+	border-radius: 5px;
+	background: #fcc302;
+	color: #FFFFFF;
+	border: none;
+	border: 2px solid #FFFFFF;
+}
+
+#cont_cuatro input:hover{
+	color: #00bec9;
+	border: 2px solid #00bec9;
+	background: #ffffff;
+
+}
+
+/*-------------------------------------grupo cinco-------------------------------------------*/
+
+#grupo_cinco{
+	width: 100%;
+	height: 850px;
+	background: #fcc302;
+}
+
+#cont_cinco{
+	width: 1150px;
+	height: 850px;
+	margin: 0px auto;
+}
+
+#cont_cinco h1{
+	font-size: 55px;
+	color: #FFFFFF;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+#cont_cinco h2{
+	font-size: 30px;
+	color: #FFFFFF;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#cont_cinco h2 span{
+	text-decoration: line-through;
+
+}
+
+#cont_cinco p{
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+
+#cont_cinco input{
+	padding: 10px 20px;
+	background: #00bec9;
+	font-size: 20px;
+	color: #FFFFFF;
+	border-radius: 15px;
+	border:none;
+	position: relative;
+	left: 120px;
+	border: 2px solid #00bec9;
+}
+
+#cont_cinco input:hover{
+	background: #FFFFFF;
+	color: #00bec9;
+	border: 2px solid #00bec9;
+
+}
+
+#cont_cinco input:focus{
+	outline-style: border-radius 15px;
+
+}
+
+#cont_cinco td{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*-------------------------------------grupo seis-------------------------------------------*/
+
+
+#grupo_seis{
+	width: 100%;
+	height: 850px;
+	background: #FFFFFF;
+}
+
+#cont_seis{
+	width: 1150px;
+	height: 850px;
+	margin: 0px auto;
+}
+
+#cont_seis h1{
+	font-size: 55px;
+	color: #000000;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+#cont_seis h2{
+	font-size: 30px;
+	color: #000000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#cont_seis h2 span{
+	font-weight: normal;
+	font-size: 20px;
+
+}
+
+#cont_seis p{
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+
+
+
+#social{
+	width: 50px;
+	height: 20px;
+	
+
+}
+
+#red{
+	width: 30px;
+	height: 30px;
+	color: #daac00;
+	position: relative;
+	left: 105px;
+}
+
+
+#cont_seis td{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*-------------------------------------grupo siete-------------------------------------------*/
+
+#grupo_siete{
+	width: 100%;
+	height: 570px;
+	background: url(../img/fondo7.png);
+	background-repeat: no-repeat;
+}
+#cont_siete{
+	width: 1150px;
+	height: 570px;
+	margin: 0px auto;
+}
+
+#cont_siete img{
+	padding-top: 200px;
+	padding-left:180px;
+
+}
+
+
+
+#cont_siete h2{
+	color: #FFFFFF;
+	text-align: center;
+	padding-left:180px;
+
+}
+
+/*-------------------------------------grupo ocho-------------------------------------------*/
+
+#grupo_ocho{
+	width: 100%;
+	height: 900px;
+
+}
+
+#cont_ocho{
+	width: 1150px;
+	height: 900px;
+	margin: 0 auto;
+}
+
+#cont_ocho h1{
+	font-size: 55px;
+	color: #000000;
+	padding-top: 70px;
+	padding-bottom: 20px;
+	text-align: center; 
+}
+
+#cont_ocho p{
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+#cont_ocho  h2{
+	padding-left: 70px;
+	float: left;
+	padding-bottom: 20px;
+
+}
+
+
+
+#cont_ocho #text_ocho{
+	padding-left: 70px;
+	float: left;
+	padding-bottom: 20px;
+	text-align: left;
+}
+
+#cont_ocho #text_ocho a{
+	color:  #00bec9;
+	text-decoration: none;
+}
+
+
+#cont_ocho span{
+	padding-left: 70px;
+	float: left;
+	padding-bottom: 20px;
+	color: #00bec9;
+}
+
+
+
+
+
+#cont_ocho img{
+	width: 300px;
+	height: auto;
+	padding-left: 70px;
+
+}
+
+/*-------------------------------------grupo nueve-------------------------------------------*/
+
+#grupo_nueve{
+ 	width: 100%;
+ 	height: 450px;
+ 	background: #343434;
+}
+
+#cont_nueve{
+	width: 1150px;
+	height: 450px;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
+#cont_nueve h2{
+	padding-bottom: 20px;
+
+}
+
+ #uno, #dos, #tres br{
+ 	margin-bottom:  50px;
+ }
+
+#uno, #dos, #tres{
+	width: 30%;
+	height: 200px;
+	float: left;
+	padding-top: 100px;
+	padding-left: 20px;
+}
+
+#tres table{
+	border-collapse: collapse;
+}
+
+
+
+#text{
+	height: 50px;	
+	background: #fcc302;
+	border: 2px solid #fcc302;
+
+}
+
+#submit:hover{
+	color: #ffffff;
+
+}
+
+
+
+#submit{
+	width:80px;
+	height: 55px;
+	background: #00bec9;	
+	border: 2px solid #00bec9;
+	background-image: url(../img/boton3.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+#submit:hover{
+	background-image: url(../img/boton4.png);
+}
